@@ -91,7 +91,7 @@
     <prescription type="broadcast" class="com.aliyun.AliyunMessageReceiver" sender="any" />
     <prescription type="broadcast" class="com.alibaba.sdk.android.push.SystemEventReceiver" sender="any" />
     
-    <prescription type="broadcast" class="org.android.agoo.xiaomi.MiPushBroadcastReceiver" sender="any" />
+    <!--<prescription type="broadcast" class="org.android.agoo.xiaomi.MiPushBroadcastReceiver" sender="any" />-->
     <prescription type="broadcast" class="org.android.agoo.huawei.HuaWeiReceiver" sender="any" />
     
     
@@ -107,7 +107,7 @@
     <!-- approximate matching -->
     <prescription type="activity" class="android.taobao.atlas.runtime.newcomponent.ATLASPROXY_*" sender="any" />
     <prescription type="service" class="com.taobao.atlas.dexmerge.*" sender="any" />
-    <prescription type="broadcast" class="com.taobao.*" >
+    <prescription type="broadcast" class="com.taobao.*" sender="other" >
         <intent-filter>
             <action name="android.net.conn.CONNECTIVITY_CHANGE" />
             <action name="android.intent.action.BOOT_COMPLETED" />
