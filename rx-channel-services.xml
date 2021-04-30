@@ -18,8 +18,8 @@
     <prescription type="service" class="com.taobao.accs.ChannelService" sender="any" />
     <prescription type="service" class="com.taobao.accs.ChannelService$KernelService" sender="any" />
     <prescription type="service" class="com.taobao.accs.internal.AccsJobService" sender="any" />
-    <prescription type="service" class="com.taobao.accs.data.MsgDistributeService" sender="any" />
-    <prescription type="service" class="anetwork.channel.aidl.NetworkService" sender="any" />
+    <prescription type="service" class="com.taobao.accs.data.MsgDistributeService" sender="other" />
+    <prescription type="service" class="anetwork.channel.aidl.NetworkService" sender="other" />
     <prescription type="service" class="com.taobao.android.service.AidlBridgeService" sender="any" />
     <prescription type="service" class="com.alibaba.mobileim.channel.service.InetIOService" sender="any" />
     <prescription type="service" class="com.alibaba.analytics.AnalyticsService" sender="any" />
@@ -30,7 +30,7 @@
     <prescription type="service" class="com.alibaba.sdk.android.push.channel.CheckService" sender="any" />
     <prescription type="service" class="org.android.agoo.accs.AgooService" sender="any" />
     <prescription type="service" class="com.android.agoo.MsgService" sender="any" />
-    <prescription type="service" class="com.taobao.agoo.TaobaoMessageIntentReceiverService" sender="any" />
+    <prescription type="service" class="com.taobao.agoo.TaobaoMessageIntentReceiverService" sender="other" />
     
     <prescription type="service" class="com.alibaba.tcms.service.TCMSService" sender="any" />
     <prescription type="service" class="com.alibaba.tcms.service.TCMSService$TCMSKernalService" sender="any" />
