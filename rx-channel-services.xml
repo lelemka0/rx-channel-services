@@ -54,7 +54,7 @@
     
     <prescription type="activity" class="com.alibaba.mtl.appmonitor.AppMonitorService" sender="any" />
     
-    <prescription type="broadcast" sender="any" >
+    <prescription type="broadcast" sender="other" >
         <intent-filter>
             <action name="com.taobao.taobao.intent.action.COMMAND" />
             <action name="com.taobao.accs.intent.action.COMMAND" />
