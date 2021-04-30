@@ -72,20 +72,20 @@
         </intent-filter>
     </prescription>
     
-    <prescription type="broadcast" class="com.taobao.accs.ServiceReceiver" sender="any" />
-    <prescription type="broadcast" class="com.taobao.accs.EventReceiver" sender="any" />
-    <prescription type="broadcast" class="com.taobao.agoo.AgooCommondReceiver" sender="any" />
-    <prescription type="broadcast" class="com.taobao.orange.receiver.OrangeReceiver" sender="any" />
-    <prescription type="broadcast" class="com.taobao.tao.msgcenter.event.AgooAndWeitaoMsgReceiver" sender="any" />
-    <prescription type="broadcast" class="com.taobao.msgnotification.AgooNotificationReceiver" sender="any" />
-    <prescription type="broadcast" class="anet.channel.heartbeat.HeartbeatManager$Receiver" sender="any" />
+    <prescription type="broadcast" class="com.taobao.accs.ServiceReceiver" sender="other" />
+    <prescription type="broadcast" class="com.taobao.accs.EventReceiver" sender="other" />
+    <prescription type="broadcast" class="com.taobao.agoo.AgooCommondReceiver" sender="other" />
+    <prescription type="broadcast" class="com.taobao.orange.receiver.OrangeReceiver" sender="other" />
+    <prescription type="broadcast" class="com.taobao.tao.msgcenter.event.AgooAndWeitaoMsgReceiver" sender="other" />
+    <prescription type="broadcast" class="com.taobao.msgnotification.AgooNotificationReceiver" sender="other" />
+    <prescription type="broadcast" class="anet.channel.heartbeat.HeartbeatManager$Receiver" sender="other" />
     
-    <prescription type="broadcast" class="com.alibaba.tcms.TcmsCommonBroadcastReceiver" sender="any" />
-    <prescription type="broadcast" class="com.alibaba.tcms.PushMessageReceiver" sender="any" />
-    <prescription type="broadcast" class="com.alibaba.mipush.MSG_BROADCAST" sender="any" />
+    <prescription type="broadcast" class="com.alibaba.tcms.TcmsCommonBroadcastReceiver" sender="other" />
+    <prescription type="broadcast" class="com.alibaba.tcms.PushMessageReceiver" sender="other" />
+    <!--<prescription type="broadcast" class="com.alibaba.mipush.MSG_BROADCAST" sender="any" />-->
     
-    <prescription type="broadcast" class="com.aliyun.AliyunMessageReceiver" sender="any" />
-    <prescription type="broadcast" class="com.alibaba.sdk.android.push.SystemEventReceiver" sender="any" />
+    <prescription type="broadcast" class="com.aliyun.AliyunMessageReceiver" sender="other" />
+    <prescription type="broadcast" class="com.alibaba.sdk.android.push.SystemEventReceiver" sender="other" />
     
     <!--<prescription type="broadcast" class="org.android.agoo.xiaomi.MiPushBroadcastReceiver" sender="any" />-->
     <prescription type="broadcast" class="org.android.agoo.huawei.HuaWeiReceiver" sender="any" />
